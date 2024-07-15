@@ -27,5 +27,8 @@
 	"type": "module",
 	"dependencies": {
 		"svelte-adapter-azure-swa": "^0.20.1"
+	},
+	"engines": {
+		"node": ">=20.11.0"
 	}
 }
