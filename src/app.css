@@ -1,4 +1,32 @@
 @import '@fontsource/fira-mono';
+@import '@fontsource-variable/cinzel';
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply font-serif font-thin;
+	}
+	h2 {
+		@apply font-serif font-light;
+	}
+	h3 {
+		@apply font-serif font-light;
+	}
+	h4 {
+		@apply font-serif font-light;
+	}
+	h5 {
+		@apply font-serif font-light;
+	}
+	h6 {
+		@apply font-serif font-light;
+	}
+}
 
 :root {
 	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -15,6 +43,7 @@
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
+/*
 
 body {
 	min-height: 100vh;
@@ -56,6 +85,16 @@ h1 {
 
 h2 {
 	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+	font-family: 'Cinzel Variable', serif;
 }
 
 pre {
@@ -105,3 +144,4 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+*/
