@@ -47,7 +47,7 @@
 	  </div>
 		<NavUl>
 			<NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/'} href="/">Home</NavLi>
-			<NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/pages/about'} href="/pages/about">About</NavLi>
+			<NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/about'} href="/about">About</NavLi>
 			<NavLi class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/flowbite-sveltekit-responsive-sidebar-layout">GitHub</NavLi>
 		</NavUl>
 	</Navbar>
